@@ -1,3 +1,4 @@
+# Author : Rania Qaisar
 """
 Dynamic Pathfinding Agent
 =========================
@@ -818,3 +819,4 @@ if __name__ == "__main__":
     app = PathfindingApp(root)
 
     root.mainloop()
+
