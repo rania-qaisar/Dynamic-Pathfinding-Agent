@@ -139,7 +139,7 @@ class PathfindingApp:
         self.root.minsize(900, 600)
 
         # ── Grid state ──
-        self.rows = 20
+        self.rows = 20            #default grid rows
         self.cols = 30
         self.grid = None          # 0=empty, 1=wall
         self.start = (1, 1)
@@ -819,4 +819,5 @@ if __name__ == "__main__":
     app = PathfindingApp(root)
 
     root.mainloop()
+
 
