@@ -25,7 +25,7 @@ COLORS = {
     "border":    "#1e2d45",
     "text":      "#c8d8e8",
     "muted":     "#4a6080",
-    "accent":    "#00d4ff",
+    "accent":    "#00d4ff",    #primary accent color
     "accent2":   "#ff6b35",
     # cell states
     "empty":     "#0b1320",
@@ -816,4 +816,5 @@ if __name__ == "__main__":
                     sliderthickness=14)
 
     app = PathfindingApp(root)
+
     root.mainloop()
